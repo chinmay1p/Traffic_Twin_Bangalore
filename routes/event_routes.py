@@ -14,7 +14,17 @@ logger = logging.getLogger(__name__)
 event_bp = Blueprint("event_routes", __name__)
 
 BASE_DIR = Path(__file__).resolve().parents[1]
-TIMELINE_PATH = BASE_DIR / "outputs" / "timeline.json"
+
+def get_timeline_path(write=False):
+    import os
+    tmp_path = Path("/tmp/timeline.json")
+    bundle_path = BASE_DIR / "outputs" / "timeline.json"
+    if "VERCEL" in os.environ:
+        if write:
+            return tmp_path
+        else:
+            return tmp_path if tmp_path.exists() else bundle_path
+    return bundle_path
 SIMULATION_RESULTS = {}
 
 EVENT_LIBRARY = {
@@ -199,13 +209,14 @@ def _build_recommendations(location_name, road_name, event_type, impact):
 
 
 def _write_timeline(meta, snapshots):
-    TIMELINE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    timeline_path = get_timeline_path(write=True)
+    timeline_path.parent.mkdir(parents=True, exist_ok=True)
     payload = {
         "event_meta": meta,
         "timestamps": list(snapshots.keys()),
         "snapshots": snapshots,
     }
-    with open(TIMELINE_PATH, "w", encoding="utf-8") as f:
+    with open(timeline_path, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2)
 
 
@@ -387,8 +398,9 @@ def ipl_simulate_custom():
 @event_bp.route("/api/events/reset", methods=["POST"])
 def reset_city_state():
     try:
-        if TIMELINE_PATH.exists():
-            TIMELINE_PATH.unlink()
+        timeline_path = get_timeline_path(write=True)
+        if timeline_path.exists():
+            timeline_path.unlink()
         SIMULATION_RESULTS.clear()
         return jsonify({"status": "success", "message": "City flow state restored to baseline."})
     except Exception as exc:

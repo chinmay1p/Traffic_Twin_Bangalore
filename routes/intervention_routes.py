@@ -7,7 +7,7 @@ from flask import Blueprint, request, jsonify
 # Local imports
 from src.simulation.state_manager import get_city_state
 from src.simulation.resource_effect_model import apply_interventions, get_alternative_routes_for_closure
-from routes.dashboard_routes import parse_wkt, load_roads, _major_roads
+from routes.dashboard_routes import parse_wkt, load_roads, _major_roads, get_timeline_path
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(levelname)s | %(message)s")
 logger = logging.getLogger(__name__)
@@ -54,7 +54,7 @@ def simulate_intervention():
     logger.info("Simulating interventions: %d actions", len(interventions))
 
     # Read base timeline.json (Before state)
-    timeline_path = os.path.join(os.getcwd(), "outputs", "timeline.json")
+    timeline_path = str(get_timeline_path(write=False))
     before_timeline = {}
     
     if os.path.exists(timeline_path):
@@ -205,7 +205,7 @@ def apply_intervention():
         return jsonify({"error": "No simulation results available to apply"}), 400
 
     try:
-        timeline_path = os.path.join(os.getcwd(), "outputs", "timeline.json")
+        timeline_path = str(get_timeline_path(write=True))
         before_timeline = {}
         
         if os.path.exists(timeline_path):

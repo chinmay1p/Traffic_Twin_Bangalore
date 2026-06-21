@@ -6,7 +6,7 @@ astram.csv
 cache
 tests
 scratch
-
+source_code
 # Ignore all folder contents
 data/*
 outputs/*

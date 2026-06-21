@@ -92,8 +92,12 @@ def build_timeline(
     }
 
     # Persist
-    OUTPUT_DIR.mkdir(exist_ok=True)
-    out_path = OUTPUT_DIR / "timeline.json"
+    import os
+    if "VERCEL" in os.environ:
+        out_path = Path("/tmp/timeline.json")
+    else:
+        OUTPUT_DIR.mkdir(exist_ok=True)
+        out_path = OUTPUT_DIR / "timeline.json"
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(timeline, f, indent=2, default=str)
     logging.info("Timeline saved to %s (%d roads x %d steps).", out_path, len(road_states), len(timestamps))

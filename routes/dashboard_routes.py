@@ -17,7 +17,17 @@ BASE_DIR = Path(__file__).resolve().parents[1]
 EDGES_CSV = BASE_DIR / "data" / "edges.csv"
 COMMAND_CENTER_ROADS_CSV = BASE_DIR / "data" / "command_center_roads.csv"
 JUNCTIONS_CSV = BASE_DIR / "data" / "major_junctions.csv"
-TIMELINE_JSON = BASE_DIR / "outputs" / "timeline.json"
+
+def get_timeline_path(write=False):
+    import os
+    tmp_path = Path("/tmp/timeline.json")
+    bundle_path = BASE_DIR / "outputs" / "timeline.json"
+    if "VERCEL" in os.environ:
+        if write:
+            return tmp_path
+        else:
+            return tmp_path if tmp_path.exists() else bundle_path
+    return bundle_path
 
 _major_roads = []
 _junctions = []
@@ -267,15 +277,16 @@ def load_junctions():
 
 
 def _read_timeline():
-    if not TIMELINE_JSON.exists():
+    timeline_path = get_timeline_path(write=False)
+    if not timeline_path.exists():
         _timeline_cache["mtime"] = None
         _timeline_cache["data"] = None
         return None
-    mtime = TIMELINE_JSON.stat().st_mtime
+    mtime = timeline_path.stat().st_mtime
     if _timeline_cache["mtime"] == mtime:
         return _timeline_cache["data"]
     try:
-        with open(TIMELINE_JSON, "r", encoding="utf-8") as f:
+        with open(timeline_path, "r", encoding="utf-8") as f:
             data = json.load(f)
         _timeline_cache["mtime"] = mtime
         _timeline_cache["data"] = data
