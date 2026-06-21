@@ -1,4 +1,4 @@
-# 🚦 Traffic Twin Bengaluru
+# 🌟 Traffic Twin Bengaluru 🚦
 ### *Predictive Traffic Simulation & AI Decision Support Platform*
 
 Traffic Twin Bengaluru is a smart traffic management platform that creates a digital representation of Bengaluru’s road network. It predicts congestion, simulates traffic disruptions, and assists authorities in selecting the optimal response strategy in real-time.
