@@ -4,7 +4,15 @@ __pycache__
 .env
 astram.csv
 cache
-data
-outputs
 tests
 scratch
+
+# Ignore all folder contents
+data/*
+outputs/*
+
+# Keep deployment-essential files
+!data/command_center_roads.csv
+!data/major_junctions.csv
+!data/road_search_index.json
+!outputs/timeline.json

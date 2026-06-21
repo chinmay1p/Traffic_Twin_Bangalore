@@ -1,0 +1,121 @@
+junction_id,lat,lng,connected_roads,traffic_signal_available,importance
+junction_1522672783,12.955476999999995,77.5452068,Mysore Road,1,high
+junction_1650477938,12.947672999999996,77.5243573,Unknown Road,1,high
+junction_247966045,12.876802200000002,77.6016548,Cave Temple Road,1,medium
+junction_435688208,12.8962564,77.5506994,Konanakunte-Uttarahalli Road,1,medium
+junction_447114380,12.972861,77.5285585,"18th Cross Road, Nagarabhavi Road",1,medium
+junction_1557141974,13.0017773,77.5046103,Hegganahalli Main Road,1,medium
+junction_249075661,12.928717999999998,77.5817418,"30th Cross Road, 7th Main Road, Diagonal Road, Vinayaka Devalaya Road",1,medium
+junction_1308989573,12.930411,77.5534123,"1st Main Road, 6th Cross Road, Kathriguppe Main Road",1,medium
+junction_308231344,13.0573653,77.5932674,"Bellary Road, Kodigehalli Road",1,high
+junction_4620988720,12.890449899999998,77.56428,"Kanakapura Road, Konanakunte-Uttarahalli Road",1,high
+junction_4105324822,12.917288699999999,77.6229515,"Outer Ring Road, Srinagar - Kanyakumari Highway",1,high
+junction_1837722503,13.0018672,77.6635301,Service Road,1,high
+junction_1534147412,12.959307699999998,77.5166418,Unknown Road,1,high
+junction_10148771374,12.859934899999997,77.6610484,Hosur Road,1,high
+junction_7384187428,13.0246093,77.6433729,Basbusabpalaya Service Road,1,high
+junction_11840554041,13.0814159,77.5933351,Hebbal Service Road towards Bengaluru,1,high
+junction_6033543943,13.042272199999998,77.5146345,Tumkur Road,1,high
+junction_443645265,13.024035399999999,77.643295,"7th Main Road, Service Road",1,high
+junction_11896602258,12.910957299999998,77.59989,Unknown Road,1,high
+junction_11846775960,13.0015756,77.6635417,Service Road,1,high
+junction_1837297545,13.019382199999995,77.7085208,"Ayyappa Nagar - Battarahalli Road, Old Madras Road",1,high
+junction_1523171064,12.956191299999999,77.5464584,Mysore Road,1,high
+junction_4614007510,12.893821499999998,77.56797800000001,Kanakapura Road,1,high
+junction_6449168615,12.935279099999999,77.5363937,Outer Ring Road,1,high
+junction_2247955597,12.853670899999996,77.5233257,Kanakapura Road,1,high
+junction_11952183375,13.000162800000002,77.6766285,"Main Road, Outer Ring Road",1,high
+junction_6167733672,12.850248699999998,77.5915141,Unknown Road,1,high
+junction_1613154924,12.896955000000002,77.6353276,Service Road,1,high
+junction_11688203992,12.912794,77.4851751,"Dr. Vishnuvardhan Road, Mysore Road",1,high
+junction_12538710573,12.9595646,77.5558218,"Mysore Road, Padarayanapura Road",1,high
+junction_1472878464,12.9180682,77.6224461,Unknown Road,1,high
+junction_7374276286,12.863828600000002,77.5324012,Kanakapura Road,1,high
+junction_2248265308,12.8690435,77.5364016,Kanakapura Road,1,high
+junction_2410746164,13.0173838,77.7047069,Madehalli Service Road,1,high
+junction_2221301505,12.957379000000001,77.5521321,"Ashwathakatte Road, Mysore Road",1,high
+junction_13633447126,12.876084700000005,77.64838560000001,Service Road,1,high
+junction_1837297461,13.0081116,77.6924978,"Diesel Loco Shed Road, Old Madras Road",1,high
+junction_6914123408,12.898814400000001,77.6341905,Service Road,1,high
+junction_262268684,12.920934199999998,77.6655585,"6th Main Road, Outer Ring Road",1,high
+junction_1614318567,12.939421300000001,77.6951897,Panathur Main Road,1,high
+junction_6130172328,13.013213400000001,77.6997701,"Old Madras Road, Vasavi Mahal Road",1,high
+junction_8318418247,12.886284999999999,77.557717,Kanakapura Road,1,high
+junction_574572559,13.008884499999995,77.5265182,Unknown Road,1,high
+junction_4614007536,12.894826599999996,77.56895050000001,Kanakapura Road,1,high
+junction_760366298,12.988635600000002,77.4725404,Magadi Road,1,high
+junction_7404490821,12.870192000000001,77.5374978,Kanakapura Road,1,high
+junction_442437516,13.0132912,77.6995927,"Old Madras Road, Vasavi Mahal Road",1,high
+junction_571438265,13.042460599999998,77.5146845,Tumkur Road,1,high
+junction_332955188,13.057359899999998,77.593541,"Bellary Road, Kodigehalli Road",1,high
+junction_489117893,13.0672552,77.5932196,"Amrutahalli Main Road, Bellary Road",1,high
+junction_5286419928,12.9009175,77.5733197,Kanakapura Road,1,high
+junction_11840554040,13.081443099999998,77.5930943,Unknown Road,1,high
+junction_7374276295,12.8664996,77.5346454,"Kanakapura Road, Main Road",1,high
+junction_309595447,12.906350599999998,77.590199,"18th Main Road, Outer Ring Road",1,high
+junction_11927462289,12.904859600000002,77.6304697,Service Road,1,high
+junction_6196977039,12.912662599999999,77.6256544,Unknown Road,1,high
+junction_248677029,12.9228405,77.4959259,Mysore Road,1,high
+junction_12153044351,12.899776399999999,77.6331484,Unknown Road,1,high
+junction_598947945,13.0422911,77.5489997,"8th Main Road, Outer Ring Road",1,high
+junction_12174556587,13.000045199999997,77.6766736,"Main Road, Outer Ring Road",1,high
+junction_494238079,12.916621800000001,77.601803,Outer Ring Road,1,high
+junction_1835530503,12.917688599999996,77.4907879,Mysore Road,1,high
+junction_248677965,12.9313056,77.5064115,Mysore Road,1,high
+junction_11919389038,12.8879638,77.6408597,Service Road,1,high
+junction_7456579066,12.934800299999996,77.5376313,Outer Ring Road,1,high
+junction_1332201355,12.910647999999997,77.6001409,Bannerghatta Road,1,high
+junction_2611179197,13.0536613,77.5933608,Unknown Road,1,high
+junction_11903087002,12.8747858,77.6495407,Service Road,1,high
+junction_13633447130,12.8731213,77.6510138,Service Road,1,high
+junction_249072292,12.923915700000002,77.5532445,Outer Ring Road,1,high
+junction_1866199092,12.9062706,77.5919553,"14th Main Road, Outer Ring Road",1,high
+junction_1866250444,12.906278799999999,77.5901939,"18th Main Road, Outer Ring Road",1,high
+junction_7374276412,12.8883366,77.5621019,"Kanakapura Road, Tippasandra Road",1,high
+junction_309594671,12.9063421,77.5919533,"14th Main Road, Outer Ring Road",1,high
+junction_1259491769,12.9747865,77.6976897,Outer Ring Road,1,high
+junction_13377866920,12.871837999999999,77.6516071,Unknown Road,1,high
+junction_388466013,12.8599937,77.5288496,Kanakapura Road,1,high
+junction_7291770234,12.904733199999997,77.5732524,Kanakapura Road,1,high
+junction_2248442617,12.8749696,77.5424596,Kanakapura Road,1,high
+junction_4620942442,12.8994627,77.572725,Kanakapura Road,1,high
+junction_388463945,12.8841749,77.5509047,Kanakapura Road,1,high
+junction_7374276367,12.884043799999999,77.5509983,Kanakapura Road,1,high
+junction_382803184,12.8971694,77.5712474,"Chunchagatta Main Road, Kanakapura Road",1,high
+junction_7208511473,12.897231099999997,77.5710801,Kanakapura Road,1,high
+junction_650140575,12.9198251,77.6431146,"7th Cross Road, Outer Ring Road",1,high
+junction_650141020,12.922026400000002,77.6449766,"19th Main Road, Outer Ring Road",1,high
+junction_353187827,13.0378624,77.6258569,"5th Cross Road, Service Road",1,high
+junction_1331989770,12.906363599999999,77.5804029,"33rd Main Road, Outer Ring Road",1,high
+junction_2396330580,12.8762559,77.4925219,NICE Expressway,1,high
+junction_9109685179,12.960251999999999,77.7012265,"1st Main Road, Service Road",1,high
+junction_335649560,13.0227799,77.64758590000001,Basbusabpalaya Service Road,1,high
+junction_5644388866,13.0228517,77.6474301,Basbusabpalaya Service Road,1,high
+junction_6197118291,12.890797,77.6386956,Hosur Road,1,high
+junction_11308911771,12.906503599999999,77.5783639,"35th Main Road, Outer Ring Road",1,high
+junction_11890755679,13.005060599999998,77.6846329,Unknown Road,1,high
+junction_2396256830,12.8788644,77.4965493,Unknown Road,1,high
+junction_2395194906,12.9079026,77.5707703,"Jamia Masjid Road, Outer Ring Road",1,high
+junction_1732873702,12.9064428,77.5804039,"33rd Main Road, Outer Ring Road",1,high
+junction_699684220,12.943935499999998,77.5301988,Outer Ring Road,1,high
+junction_7279157764,13.0239983,77.6433826,"7th Main Road, Service Road",1,high
+junction_12060569556,12.928027000000002,77.5462494,Outer Ring Road,1,high
+junction_3170006921,12.925788299999997,77.6761658,"Bellandur Main Road, Bellanduru Main Road",1,high
+junction_11308911770,12.906414599999996,77.5783628,"35th Main Road, Outer Ring Road",1,high
+junction_699576772,12.907981,77.5708419,Outer Ring Road,1,high
+junction_11688203994,12.912663400000001,77.4852709,"Dr. Vishnuvardhan Road, Mysore Road",1,high
+junction_6033543910,13.037938500000001,77.521822,"Police Station Road, Tumkur Road",1,high
+junction_6449168616,12.935365499999998,77.5364343,Outer Ring Road,1,high
+junction_448114563,13.012971899999998,77.5378262,Nandhini Layout Main Road,1,medium
+junction_446783113,13.010763499999998,77.5376579,"4th Cross Road, Nandini Layout Road",1,medium
+junction_1791639847,13.0063714,77.6472957,"6th B Cross Road, Chikka Banaswadi Road",1,medium
+junction_1837017378,12.9435392,77.5386846,"50 Feet Road, Hoskerehalli Road",1,medium
+junction_2246587157,13.0684092,77.5302485,Hesarghatta Pipeline Road,1,medium
+junction_249143603,12.956497599999997,77.5763222,"Kondaji Basappa Road, Lalbagh Fort Road",1,medium
+junction_10147095560,13.0636235,77.559216,Vidyaranyapura Road,1,medium
+junction_272710599,12.879041599999999,77.5672562,Amruth Nagar Main Road,1,medium
+junction_272710618,12.8817265,77.5663939,Amruth Nagar Main Road,1,medium
+junction_272710625,12.882550899999998,77.5660376,Amruth Nagar Main Road,1,medium
+junction_3034593619,12.878287099999998,77.5839951,Kothnur Main Road,1,medium
+junction_1532827704,12.9740697,77.5096265,"1st Main Road, 2nd Main Road",1,medium
+junction_463429504,13.0214352,77.53563110000002,Kanteerava Studio Main Road,1,medium
