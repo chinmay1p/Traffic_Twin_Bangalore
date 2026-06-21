@@ -97,7 +97,7 @@ Traffic Data + Road network + Event History
             ↓
   Event Impact Prediction
             ↓
-  Congestion Simulation (ST-GNN)
+  Congestion Simulation
             ↓
     Response Planning
             ↓
