@@ -15,10 +15,6 @@ A virtual city traffic environment modeled using Bengaluru's major road networks
 * **Real-time Metrics**: Tracks density, average speed, vehicle flow, and capacity per segment.
 * **Density States**: Dynamic congestion mapping (Low, Medium, High) represented with standard color codes.
 
-### 🕒 Time-Based Traffic Intelligence
-Modeled around a custom Bengaluru traffic dataset to capture daily temporal dynamics:
-* **Peak Office Hours**: Morning (7:00 AM – 10:00 AM) and Evening (5:00 PM – 8:00 PM) spikes.
-* **Off-Peak Operations**: Mid-day movement and night-time free flow.
 
 ### ⚠️ Event Monitoring & NLP Severity Extraction
 Ingests and predicts impacts from public gatherings, sports matches (e.g., IPL), breakdowns, and water logging:
@@ -90,21 +86,6 @@ python app.py
 ```
 Open **`http://127.0.0.1:5000/`** in your browser to view the Command Center.
 
----
-
-## 🧪 Testing the Simulation Modules
-Run the automated testing suites to verify the machine learning pipelines and network routing:
-
-```bash
-# Run model prediction and SHAP explanation tests
-python tests/test_models.py
-
-# Run road closure and diversion simulation tests
-python tests/test_closure.py
-
-# Run adaptive signal timing tests
-python tests/test_signal_ai.py
-```
 
 ---
 
