@@ -108,3 +108,14 @@ python app.py
 Open `http://localhost:5000` — the landing page links to both the Citizen Dashboard and the Police Command Center.
 
 > The SQLite database (`traffic_twin.db`) is created automatically on first run with seed events and weather alerts.
+
+---
+
+## ☁️ Deployment
+
+Deployed on **Vercel** using the `@vercel/python` serverless builder.
+
+- `vercel.json` routes all traffic through `app.py`
+- SQLite writes to `/tmp/` on Vercel (detected via `VERCEL` env var)
+- ML inference uses **ONNX Runtime** instead of LightGBM directly — avoids the `libgomp.so.1` dependency missing from Vercel's runtime
+- Database is seeded fresh on each cold start (in-memory for the function lifetime)
